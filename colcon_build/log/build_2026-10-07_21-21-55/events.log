@@ -1,0 +1,538 @@
+[0.000000] (-) TimerEvent: {}
+[0.000306] (rm_interfaces) JobQueued: {'identifier': 'rm_interfaces', 'dependencies': OrderedDict()}
+[0.000741] (rm_interfaces) JobStarted: {'identifier': 'rm_interfaces'}
+[0.013138] (rm_interfaces) JobProgress: {'identifier': 'rm_interfaces', 'progress': 'cmake'}
+[0.014432] (rm_interfaces) JobProgress: {'identifier': 'rm_interfaces', 'progress': 'build'}
+[0.015077] (rm_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fyxiuu/rm_visiongroup/colcon_build/build/rm_interfaces'], 'cwd': '/home/fyxiuu/rm_visiongroup/colcon_build/build/rm_interfaces', 'env': OrderedDict([('USER', 'fyxiuu'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fyxiuu'), ('OLDPWD', '/mnt/d/KimiData/kimi/workspace'), ('ROS_PYTHON_VERSION', '3'), ('MAKEFLAGS', '-j3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('COLCON_LOG_PATH', '/home/fyxiuu/rm_visiongroup/colcon_build/log'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fyxiuu'), ('NAME', 'Vex'), ('WSL_INTEROP', '/run/WSL/52880_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/e/AI/Git/Git/ucrt64/bin:/mnt/e/AI/Git/Git/usr/bin:/mnt/c/Users/Administrator/bin:/mnt/e/vmware/Workstation/bin/:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/e/AI/Nodejs/:/mnt/c/Program Files/dotnet/:/mnt/e/AI/Git/Git/cmd:/mnt/c/Users/Administrator/.local/bin:/mnt/c/Users/Administrator/.kimi-code/bin:/mnt/c/Users/Administrator/AppData/Local/Programs/Python/Python312:/mnt/c/Users/Administrator/AppData/Local/Programs/Python/Python312/Scripts:/mnt/c/Users/Administrator/AppData/Roaming/Python/Python312/Scripts:/mnt/c/Users/Administrator/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/Administrator/AppData/Local/hermes/hermes-agent/venv/Scripts:/mnt/c/Users/Administrator/AppData/Local/hermes/bin:/mnt/c/Users/Administrator/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Administrator/msys64/ucrt64/bin:/mnt/e/VScode/Microsoft VS Code/bin:/mnt/c/Users/Administrator/AppData/Local/cursor-agent:/mnt/d/npm-global:/mnt/c/Users/Administrator/AppData/Local/Programs/Ollaya/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('COLCON_DEFAULTS_FILE', '/home/fyxiuu/rm_visiongroup/colcon_defaults.yaml'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/home/fyxiuu/rm_visiongroup/colcon_build/build/rm_interfaces'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.053222] (rm_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099695] (-) TimerEvent: {}
+[0.199939] (-) TimerEvent: {}
+[0.201241] (rm_interfaces) StdoutLine: {'line': b'-- Found std_msgs: 4.9.2 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[0.300079] (-) TimerEvent: {}
+[0.389551] (rm_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.393822] (rm_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.400199] (-) TimerEvent: {}
+[0.404224] (rm_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.418112] (rm_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.435984] (rm_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.466721] (rm_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.2 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.483819] (rm_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.500385] (-) TimerEvent: {}
+[0.600637] (-) TimerEvent: {}
+[0.700886] (-) TimerEvent: {}
+[0.773294] (rm_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.1 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.801021] (-) TimerEvent: {}
+[0.901217] (-) TimerEvent: {}
+[1.001476] (-) TimerEvent: {}
+[1.101758] (-) TimerEvent: {}
+[1.202294] (-) TimerEvent: {}
+[1.226894] (rm_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.302477] (-) TimerEvent: {}
+[1.391448] (rm_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.402607] (-) TimerEvent: {}
+[1.414456] (rm_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.438358] (rm_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.438695] (rm_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.438948] (rm_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.502742] (-) TimerEvent: {}
+[1.573194] (rm_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.603050] (-) TimerEvent: {}
+[1.667605] (rm_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[1.687569] (rm_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/fyxiuu/rm_visiongroup/colcon_build/build/rm_interfaces\n'}
+[1.703148] (-) TimerEvent: {}
+[1.720816] (rm_interfaces) StdoutLine: {'line': b'[  1%] Generating C code for ROS interfaces\n'}
+[1.732279] (rm_interfaces) StdoutLine: {'line': b'[  2%] Generating Rust code for ROS interfaces\n'}
+[1.732713] (rm_interfaces) StdoutLine: {'line': b'[  3%] Generating C++ code for ROS interfaces\n'}
+[1.803322] (-) TimerEvent: {}
+[1.903587] (-) TimerEvent: {}
+[2.003873] (-) TimerEvent: {}
+[2.104149] (-) TimerEvent: {}
+[2.204391] (-) TimerEvent: {}
+[2.304685] (-) TimerEvent: {}
+[2.404990] (-) TimerEvent: {}
+[2.505295] (-) TimerEvent: {}
+[2.605572] (-) TimerEvent: {}
+[2.705853] (-) TimerEvent: {}
+[2.718041] (rm_interfaces) StdoutLine: {'line': b'[  3%] Built target rm_interfaces__rs\n'}
+[2.777092] (rm_interfaces) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_copy_rm_interfaces\n'}
+[2.806013] (-) TimerEvent: {}
+[2.906286] (-) TimerEvent: {}
+[3.006540] (-) TimerEvent: {}
+[3.077874] (rm_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[3.079163] (rm_interfaces) StdoutLine: {'line': b'writing rm_interfaces.egg-info/PKG-INFO\n'}
+[3.079749] (rm_interfaces) StdoutLine: {'line': b'writing dependency_links to rm_interfaces.egg-info/dependency_links.txt\n'}
+[3.080224] (rm_interfaces) StdoutLine: {'line': b'writing top-level names to rm_interfaces.egg-info/top_level.txt\n'}
+[3.084586] (rm_interfaces) StdoutLine: {'line': b"reading manifest file 'rm_interfaces.egg-info/SOURCES.txt'\n"}
+[3.085654] (rm_interfaces) StdoutLine: {'line': b"writing manifest file 'rm_interfaces.egg-info/SOURCES.txt'\n"}
+[3.106682] (-) TimerEvent: {}
+[3.124846] (rm_interfaces) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_build_rm_interfaces_egg\n'}
+[3.206852] (-) TimerEvent: {}
+[3.221475] (rm_interfaces) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target rm_interfaces__rosidl_generator_c\n'}
+[3.236060] (rm_interfaces) StdoutLine: {'line': b'[  6%] Building C object CMakeFiles/rm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_interfaces/msg/detail/armors__functions.c.o\n'}
+[3.236389] (rm_interfaces) StdoutLine: {'line': b'[  6%] Building C object CMakeFiles/rm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_interfaces/msg/detail/armor__functions.c.o\n'}
+[3.244281] (rm_interfaces) StdoutLine: {'line': b'[  6%] Built target rm_interfaces__cpp\n'}
+[3.258872] (rm_interfaces) StdoutLine: {'line': b'[  7%] Building C object CMakeFiles/rm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_interfaces/msg/detail/armor_pose__functions.c.o\n'}
+[3.307036] (-) TimerEvent: {}
+[3.352512] (rm_interfaces) StdoutLine: {'line': b'[ 10%] Building C object CMakeFiles/rm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_interfaces/msg/detail/armor_poses__functions.c.o\n'}
+[3.352841] (rm_interfaces) StdoutLine: {'line': b'[ 10%] Building C object CMakeFiles/rm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_interfaces/msg/detail/target__functions.c.o\n'}
+[3.354300] (rm_interfaces) StdoutLine: {'line': b'[ 11%] Generating C++ type support for eProsima Fast-RTPS\n'}
+[3.407188] (-) TimerEvent: {}
+[3.414067] (rm_interfaces) StdoutLine: {'line': b'[ 13%] Building C object CMakeFiles/rm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_interfaces/msg/detail/gimbal_cmd__functions.c.o\n'}
+[3.414444] (rm_interfaces) StdoutLine: {'line': b'[ 13%] Building C object CMakeFiles/rm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_interfaces/msg/detail/gimbal_state__functions.c.o\n'}
+[3.482746] (rm_interfaces) StdoutLine: {'line': b'[ 16%] Linking C shared library librm_interfaces__rosidl_generator_c.so\n'}
+[3.483135] (rm_interfaces) StdoutLine: {'line': b'[ 16%] Generating C++ introspection for ROS interfaces\n'}
+[3.507419] (-) TimerEvent: {}
+[3.607666] (-) TimerEvent: {}
+[3.681710] (rm_interfaces) StdoutLine: {'line': b'[ 16%] Built target rm_interfaces__rosidl_generator_c\n'}
+[3.695565] (rm_interfaces) StdoutLine: {'line': b'[ 17%] Generating C++ type support dispatch for ROS interfaces\n'}
+[3.707822] (-) TimerEvent: {}
+[3.808100] (-) TimerEvent: {}
+[3.908392] (-) TimerEvent: {}
+[4.008664] (-) TimerEvent: {}
+[4.108939] (-) TimerEvent: {}
+[4.209223] (-) TimerEvent: {}
+[4.309495] (-) TimerEvent: {}
+[4.409798] (-) TimerEvent: {}
+[4.510183] (-) TimerEvent: {}
+[4.596554] (rm_interfaces) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target rm_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[4.610344] (-) TimerEvent: {}
+[4.611988] (rm_interfaces) StdoutLine: {'line': b'[ 18%] Building CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_interfaces/msg/detail/armor__type_support.cpp.o\n'}
+[4.653204] (rm_interfaces) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target rm_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[4.671640] (rm_interfaces) StdoutLine: {'line': b'[ 20%] Building CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_interfaces/msg/detail/dds_fastrtps/armor__type_support.cpp.o\n'}
+[4.710550] (-) TimerEvent: {}
+[4.809507] (rm_interfaces) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target rm_interfaces__rosidl_typesupport_cpp\n'}
+[4.810697] (-) TimerEvent: {}
+[4.828784] (rm_interfaces) StdoutLine: {'line': b'[ 21%] Building CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_interfaces/msg/armor__type_support.cpp.o\n'}
+[4.910869] (-) TimerEvent: {}
+[5.011170] (-) TimerEvent: {}
+[5.111538] (-) TimerEvent: {}
+[5.212016] (-) TimerEvent: {}
+[5.312433] (-) TimerEvent: {}
+[5.339468] (rm_interfaces) StdoutLine: {'line': b'[ 22%] Building CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_interfaces/msg/armors__type_support.cpp.o\n'}
+[5.364315] (rm_interfaces) StdoutLine: {'line': b'[ 23%] Building CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_interfaces/msg/detail/dds_fastrtps/armors__type_support.cpp.o\n'}
+[5.388025] (rm_interfaces) StdoutLine: {'line': b'[ 25%] Building CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_interfaces/msg/detail/armors__type_support.cpp.o\n'}
+[5.412564] (-) TimerEvent: {}
+[5.513106] (-) TimerEvent: {}
+[5.613446] (-) TimerEvent: {}
+[5.695785] (rm_interfaces) StdoutLine: {'line': b'[ 26%] Building CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_interfaces/msg/armor_pose__type_support.cpp.o\n'}
+[5.713605] (-) TimerEvent: {}
+[5.813930] (-) TimerEvent: {}
+[5.910531] (rm_interfaces) StdoutLine: {'line': b'[ 27%] Building CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_interfaces/msg/detail/armor_pose__type_support.cpp.o\n'}
+[5.911112] (rm_interfaces) StdoutLine: {'line': b'[ 28%] Building CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_interfaces/msg/detail/dds_fastrtps/armor_pose__type_support.cpp.o\n'}
+[5.914044] (-) TimerEvent: {}
+[5.996123] (rm_interfaces) StdoutLine: {'line': b'[ 30%] Building CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_interfaces/msg/armor_poses__type_support.cpp.o\n'}
+[6.014197] (-) TimerEvent: {}
+[6.114540] (-) TimerEvent: {}
+[6.214970] (-) TimerEvent: {}
+[6.256081] (rm_interfaces) StdoutLine: {'line': b'[ 31%] Building CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_interfaces/msg/target__type_support.cpp.o\n'}
+[6.277132] (rm_interfaces) StdoutLine: {'line': b'[ 32%] Building CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_interfaces/msg/detail/armor_poses__type_support.cpp.o\n'}
+[6.299586] (rm_interfaces) StdoutLine: {'line': b'[ 33%] Building CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_interfaces/msg/detail/dds_fastrtps/armor_poses__type_support.cpp.o\n'}
+[6.315127] (-) TimerEvent: {}
+[6.415450] (-) TimerEvent: {}
+[6.495982] (rm_interfaces) StdoutLine: {'line': b'[ 35%] Building CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_interfaces/msg/gimbal_cmd__type_support.cpp.o\n'}
+[6.515615] (-) TimerEvent: {}
+[6.615904] (-) TimerEvent: {}
+[6.711179] (rm_interfaces) StdoutLine: {'line': b'[ 36%] Building CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_interfaces/msg/detail/target__type_support.cpp.o\n'}
+[6.716048] (-) TimerEvent: {}
+[6.763782] (rm_interfaces) StdoutLine: {'line': b'[ 37%] Building CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_interfaces/msg/detail/dds_fastrtps/target__type_support.cpp.o\n'}
+[6.816150] (-) TimerEvent: {}
+[6.837700] (rm_interfaces) StdoutLine: {'line': b'[ 38%] Building CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_interfaces/msg/gimbal_state__type_support.cpp.o\n'}
+[6.916366] (-) TimerEvent: {}
+[7.016731] (-) TimerEvent: {}
+[7.099914] (rm_interfaces) StdoutLine: {'line': b'[ 40%] Linking CXX shared library librm_interfaces__rosidl_typesupport_cpp.so\n'}
+[7.116887] (-) TimerEvent: {}
+[7.128296] (rm_interfaces) StdoutLine: {'line': b'[ 41%] Building CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_interfaces/msg/detail/gimbal_cmd__type_support.cpp.o\n'}
+[7.161601] (rm_interfaces) StdoutLine: {'line': b'[ 42%] Building CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_interfaces/msg/detail/dds_fastrtps/gimbal_cmd__type_support.cpp.o\n'}
+[7.217025] (-) TimerEvent: {}
+[7.258137] (rm_interfaces) StdoutLine: {'line': b'[ 42%] Built target rm_interfaces__rosidl_typesupport_cpp\n'}
+[7.267603] (rm_interfaces) StdoutLine: {'line': b'[ 43%] Building CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_interfaces/msg/detail/gimbal_state__type_support.cpp.o\n'}
+[7.317175] (-) TimerEvent: {}
+[7.417446] (-) TimerEvent: {}
+[7.490790] (rm_interfaces) StdoutLine: {'line': b'[ 45%] Building CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_interfaces/msg/detail/dds_fastrtps/gimbal_state__type_support.cpp.o\n'}
+[7.517601] (-) TimerEvent: {}
+[7.536576] (rm_interfaces) StdoutLine: {'line': b'[ 46%] Generating C type support for eProsima Fast-RTPS\n'}
+[7.617722] (-) TimerEvent: {}
+[7.646020] (rm_interfaces) StdoutLine: {'line': b'[ 47%] Linking CXX shared library librm_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[7.717858] (-) TimerEvent: {}
+[7.818161] (-) TimerEvent: {}
+[7.879886] (rm_interfaces) StdoutLine: {'line': b'[ 47%] Built target rm_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[7.894966] (rm_interfaces) StdoutLine: {'line': b'[ 48%] Generating C introspection for ROS interfaces\n'}
+[7.916791] (rm_interfaces) StdoutLine: {'line': b'[ 50%] Linking CXX shared library librm_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[7.918224] (-) TimerEvent: {}
+[8.018416] (-) TimerEvent: {}
+[8.118702] (-) TimerEvent: {}
+[8.123168] (rm_interfaces) StdoutLine: {'line': b'[ 50%] Built target rm_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[8.135332] (rm_interfaces) StdoutLine: {'line': b'[ 51%] Generating C type support dispatch for ROS interfaces\n'}
+[8.218827] (-) TimerEvent: {}
+[8.319074] (-) TimerEvent: {}
+[8.419352] (-) TimerEvent: {}
+[8.519626] (-) TimerEvent: {}
+[8.597824] (rm_interfaces) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target rm_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[8.613679] (rm_interfaces) StdoutLine: {'line': b'[ 52%] Building CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_interfaces/msg/detail/armor__type_support_c.cpp.o\n'}
+[8.619751] (-) TimerEvent: {}
+[8.719974] (-) TimerEvent: {}
+[8.820215] (-) TimerEvent: {}
+[8.914480] (rm_interfaces) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target rm_interfaces__rosidl_typesupport_introspection_c\n'}
+[8.920360] (-) TimerEvent: {}
+[8.928799] (rm_interfaces) StdoutLine: {'line': b'[ 53%] Building C object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_interfaces/msg/detail/armor__type_support.c.o\n'}
+[8.957235] (rm_interfaces) StdoutLine: {'line': b'[ 55%] Building CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_interfaces/msg/detail/armors__type_support_c.cpp.o\n'}
+[8.974296] (rm_interfaces) StdoutLine: {'line': b'[ 56%] Building C object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_interfaces/msg/detail/armors__type_support.c.o\n'}
+[8.996030] (rm_interfaces) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target rm_interfaces__rosidl_typesupport_c\n'}
+[9.010667] (rm_interfaces) StdoutLine: {'line': b'[ 57%] Building CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_interfaces/msg/armor__type_support.cpp.o\n'}
+[9.019658] (rm_interfaces) StdoutLine: {'line': b'[ 58%] Building C object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_interfaces/msg/detail/armor_pose__type_support.c.o\n'}
+[9.020429] (-) TimerEvent: {}
+[9.048440] (rm_interfaces) StdoutLine: {'line': b'[ 60%] Building CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_interfaces/msg/armors__type_support.cpp.o\n'}
+[9.062180] (rm_interfaces) StdoutLine: {'line': b'[ 61%] Building C object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_interfaces/msg/detail/armor_poses__type_support.c.o\n'}
+[9.082225] (rm_interfaces) StdoutLine: {'line': b'[ 62%] Building CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_interfaces/msg/armor_pose__type_support.cpp.o\n'}
+[9.102660] (rm_interfaces) StdoutLine: {'line': b'[ 63%] Building C object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_interfaces/msg/detail/target__type_support.c.o\n'}
+[9.114568] (rm_interfaces) StdoutLine: {'line': b'[ 65%] Building CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_interfaces/msg/armor_poses__type_support.cpp.o\n'}
+[9.120555] (-) TimerEvent: {}
+[9.141843] (rm_interfaces) StdoutLine: {'line': b'[ 66%] Building C object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_interfaces/msg/detail/gimbal_cmd__type_support.c.o\n'}
+[9.146239] (rm_interfaces) StdoutLine: {'line': b'[ 67%] Building CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_interfaces/msg/target__type_support.cpp.o\n'}
+[9.178231] (rm_interfaces) StdoutLine: {'line': b'[ 68%] Building C object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_interfaces/msg/detail/gimbal_state__type_support.c.o\n'}
+[9.178695] (rm_interfaces) StdoutLine: {'line': b'[ 70%] Building CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_interfaces/msg/gimbal_cmd__type_support.cpp.o\n'}
+[9.209332] (rm_interfaces) StdoutLine: {'line': b'[ 71%] Building CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_interfaces/msg/gimbal_state__type_support.cpp.o\n'}
+[9.216665] (rm_interfaces) StdoutLine: {'line': b'[ 72%] Linking C shared library librm_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[9.220693] (-) TimerEvent: {}
+[9.242572] (rm_interfaces) StdoutLine: {'line': b'[ 73%] Linking CXX shared library librm_interfaces__rosidl_typesupport_c.so\n'}
+[9.287134] (rm_interfaces) StdoutLine: {'line': b'[ 75%] Building CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_interfaces/msg/detail/armor_pose__type_support_c.cpp.o\n'}
+[9.320875] (-) TimerEvent: {}
+[9.365011] (rm_interfaces) StdoutLine: {'line': b'[ 75%] Built target rm_interfaces__rosidl_typesupport_introspection_c\n'}
+[9.376182] (rm_interfaces) StdoutLine: {'line': b'[ 76%] Building CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_interfaces/msg/detail/armor_poses__type_support_c.cpp.o\n'}
+[9.399223] (rm_interfaces) StdoutLine: {'line': b'[ 76%] Built target rm_interfaces__rosidl_typesupport_c\n'}
+[9.409301] (rm_interfaces) StdoutLine: {'line': b'[ 77%] Building CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_interfaces/msg/detail/target__type_support_c.cpp.o\n'}
+[9.421015] (-) TimerEvent: {}
+[9.521342] (-) TimerEvent: {}
+[9.621632] (-) TimerEvent: {}
+[9.682665] (rm_interfaces) StdoutLine: {'line': b'[ 78%] Building CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_interfaces/msg/detail/gimbal_cmd__type_support_c.cpp.o\n'}
+[9.721805] (-) TimerEvent: {}
+[9.776483] (rm_interfaces) StdoutLine: {'line': b'[ 80%] Building CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_interfaces/msg/detail/gimbal_state__type_support_c.cpp.o\n'}
+[9.821983] (-) TimerEvent: {}
+[9.922223] (-) TimerEvent: {}
+[10.022508] (-) TimerEvent: {}
+[10.057454] (rm_interfaces) StdoutLine: {'line': b'[ 81%] Linking CXX shared library librm_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[10.122678] (-) TimerEvent: {}
+[10.220453] (rm_interfaces) StdoutLine: {'line': b'[ 81%] Built target rm_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[10.222824] (-) TimerEvent: {}
+[10.239510] (rm_interfaces) StdoutLine: {'line': b'[ 81%] Built target rm_interfaces\n'}
+[10.258806] (rm_interfaces) StdoutLine: {'line': b'[ 82%] Generating Python code for ROS interfaces\n'}
+[10.323016] (-) TimerEvent: {}
+[10.423304] (-) TimerEvent: {}
+[10.523612] (-) TimerEvent: {}
+[10.623927] (-) TimerEvent: {}
+[10.724195] (-) TimerEvent: {}
+[10.824442] (-) TimerEvent: {}
+[10.924688] (-) TimerEvent: {}
+[11.024937] (-) TimerEvent: {}
+[11.125173] (-) TimerEvent: {}
+[11.225422] (-) TimerEvent: {}
+[11.325696] (-) TimerEvent: {}
+[11.425991] (-) TimerEvent: {}
+[11.526280] (-) TimerEvent: {}
+[11.626568] (-) TimerEvent: {}
+[11.726874] (-) TimerEvent: {}
+[11.729118] (rm_interfaces) StdoutLine: {'line': b'[ 82%] Built target rm_interfaces__py\n'}
+[11.750810] (rm_interfaces) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target rm_interfaces__rosidl_generator_py\n'}
+[11.765055] (rm_interfaces) StdoutLine: {'line': b'[ 86%] Building C object CMakeFiles/rm_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rm_interfaces/msg/_armor_pose_s.c.o\n'}
+[11.765368] (rm_interfaces) StdoutLine: {'line': b'[ 86%] Building C object CMakeFiles/rm_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rm_interfaces/msg/_armors_s.c.o\n'}
+[11.765628] (rm_interfaces) StdoutLine: {'line': b'[ 86%] Building C object CMakeFiles/rm_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rm_interfaces/msg/_armor_s.c.o\n'}
+[11.826990] (-) TimerEvent: {}
+[11.923095] (rm_interfaces) StdoutLine: {'line': b'[ 87%] Building C object CMakeFiles/rm_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rm_interfaces/msg/_armor_poses_s.c.o\n'}
+[11.923773] (rm_interfaces) StdoutLine: {'line': b'[ 88%] Building C object CMakeFiles/rm_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rm_interfaces/msg/_target_s.c.o\n'}
+[11.926312] (rm_interfaces) StdoutLine: {'line': b'[ 90%] Building C object CMakeFiles/rm_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rm_interfaces/msg/_gimbal_cmd_s.c.o\n'}
+[11.927078] (-) TimerEvent: {}
+[12.022357] (rm_interfaces) StdoutLine: {'line': b'[ 91%] Building C object CMakeFiles/rm_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rm_interfaces/msg/_gimbal_state_s.c.o\n'}
+[12.027223] (-) TimerEvent: {}
+[12.117008] (rm_interfaces) StdoutLine: {'line': b'[ 92%] Linking C shared library rosidl_generator_py/rm_interfaces/librm_interfaces__rosidl_generator_py.so\n'}
+[12.127384] (-) TimerEvent: {}
+[12.227643] (-) TimerEvent: {}
+[12.264343] (rm_interfaces) StdoutLine: {'line': b'[ 92%] Built target rm_interfaces__rosidl_generator_py\n'}
+[12.278957] (rm_interfaces) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target rm_interfaces__rosidl_typesupport_c__pyext\n'}
+[12.279512] (rm_interfaces) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target rm_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[12.279598] (rm_interfaces) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target rm_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[12.292899] (rm_interfaces) StdoutLine: {'line': b'[ 96%] Building C object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/rm_interfaces/_rm_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\n'}
+[12.293258] (rm_interfaces) StdoutLine: {'line': b'[ 96%] Building C object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/rm_interfaces/_rm_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\n'}
+[12.293488] (rm_interfaces) StdoutLine: {'line': b'[ 96%] Building C object CMakeFiles/rm_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/rm_interfaces/_rm_interfaces_s.ep.rosidl_typesupport_c.c.o\n'}
+[12.327768] (-) TimerEvent: {}
+[12.425500] (rm_interfaces) StdoutLine: {'line': b'[ 97%] Linking C shared library rosidl_generator_py/rm_interfaces/rm_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.427879] (-) TimerEvent: {}
+[12.441514] (rm_interfaces) StdoutLine: {'line': b'[ 98%] Linking C shared library rosidl_generator_py/rm_interfaces/rm_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.442020] (rm_interfaces) StdoutLine: {'line': b'[100%] Linking C shared library rosidl_generator_py/rm_interfaces/rm_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.528064] (-) TimerEvent: {}
+[12.546679] (rm_interfaces) StdoutLine: {'line': b'[100%] Built target rm_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[12.547335] (rm_interfaces) StdoutLine: {'line': b'[100%] Built target rm_interfaces__rosidl_typesupport_c__pyext\n'}
+[12.547502] (rm_interfaces) StdoutLine: {'line': b'[100%] Built target rm_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[12.562728] (rm_interfaces) CommandEnded: {'returncode': 0}
+[12.564374] (rm_interfaces) JobProgress: {'identifier': 'rm_interfaces', 'progress': 'install'}
+[12.576690] (rm_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/fyxiuu/rm_visiongroup/colcon_build/build/rm_interfaces'], 'cwd': '/home/fyxiuu/rm_visiongroup/colcon_build/build/rm_interfaces', 'env': OrderedDict([('USER', 'fyxiuu'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fyxiuu'), ('OLDPWD', '/mnt/d/KimiData/kimi/workspace'), ('ROS_PYTHON_VERSION', '3'), ('MAKEFLAGS', '-j3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('COLCON_LOG_PATH', '/home/fyxiuu/rm_visiongroup/colcon_build/log'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fyxiuu'), ('NAME', 'Vex'), ('WSL_INTEROP', '/run/WSL/52880_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/e/AI/Git/Git/ucrt64/bin:/mnt/e/AI/Git/Git/usr/bin:/mnt/c/Users/Administrator/bin:/mnt/e/vmware/Workstation/bin/:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/e/AI/Nodejs/:/mnt/c/Program Files/dotnet/:/mnt/e/AI/Git/Git/cmd:/mnt/c/Users/Administrator/.local/bin:/mnt/c/Users/Administrator/.kimi-code/bin:/mnt/c/Users/Administrator/AppData/Local/Programs/Python/Python312:/mnt/c/Users/Administrator/AppData/Local/Programs/Python/Python312/Scripts:/mnt/c/Users/Administrator/AppData/Roaming/Python/Python312/Scripts:/mnt/c/Users/Administrator/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/Administrator/AppData/Local/hermes/hermes-agent/venv/Scripts:/mnt/c/Users/Administrator/AppData/Local/hermes/bin:/mnt/c/Users/Administrator/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Administrator/msys64/ucrt64/bin:/mnt/e/VScode/Microsoft VS Code/bin:/mnt/c/Users/Administrator/AppData/Local/cursor-agent:/mnt/d/npm-global:/mnt/c/Users/Administrator/AppData/Local/Programs/Ollaya/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('COLCON_DEFAULTS_FILE', '/home/fyxiuu/rm_visiongroup/colcon_defaults.yaml'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/home/fyxiuu/rm_visiongroup/colcon_build/build/rm_interfaces'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[12.586614] (rm_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.587351] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/share/ament_index/resource_index/rosidl_interfaces/rm_interfaces\n'}
+[12.587843] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces\n'}
+[12.588376] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg\n'}
+[12.588710] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/target.h\n'}
+[12.589152] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail\n'}
+[12.589710] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/target__functions.c\n'}
+[12.590132] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armor_poses__struct.h\n'}
+[12.590319] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/target__type_support.h\n'}
+[12.590514] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armor_pose__type_support.h\n'}
+[12.590994] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__functions.c\n'}
+[12.591716] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armor_poses__type_support.h\n'}
+[12.591889] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armors__functions.c\n'}
+[12.591966] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armor_pose__functions.h\n'}
+[12.592129] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__functions.h\n'}
+[12.592788] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_state__functions.h\n'}
+[12.593139] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armor__functions.c\n'}
+[12.593274] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_state__struct.h\n'}
+[12.594086] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armor_poses__functions.h\n'}
+[12.594176] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/target__functions.h\n'}
+[12.594594] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armor_pose__functions.c\n'}
+[12.594670] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__type_support.h\n'}
+[12.595076] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armor__struct.h\n'}
+[12.595282] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/target__struct.h\n'}
+[12.595414] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_state__type_support.h\n'}
+[12.595523] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_state__functions.c\n'}
+[12.595707] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armor__type_support.h\n'}
+[12.595787] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__struct.h\n'}
+[12.595852] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armors__type_support.h\n'}
+[12.595911] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armor_pose__struct.h\n'}
+[12.595967] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armor_poses__functions.c\n'}
+[12.596022] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armors__struct.h\n'}
+[12.596152] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armors__functions.h\n'}
+[12.596578] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armor__functions.h\n'}
+[12.596672] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/armor_poses.h\n'}
+[12.596741] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/armor_pose.h\n'}
+[12.596801] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/gimbal_state.h\n'}
+[12.596860] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[12.596918] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/armors.h\n'}
+[12.596986] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/armor.h\n'}
+[12.597042] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/gimbal_cmd.h\n'}
+[12.597102] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/share/rm_interfaces/environment/library_path.sh\n'}
+[12.597538] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/share/rm_interfaces/environment/library_path.dsv\n'}
+[12.597807] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/lib/librm_interfaces__rosidl_generator_c.so\n'}
+[12.598194] (rm_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/lib/librm_interfaces__rosidl_generator_c.so" to ""\n'}
+[12.598473] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces\n'}
+[12.599108] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg\n'}
+[12.599191] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail\n'}
+[12.599302] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__rosidl_typesupport_fastrtps_c.h\n'}
+[12.599483] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armors__rosidl_typesupport_fastrtps_c.h\n'}
+[12.599561] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armor__rosidl_typesupport_fastrtps_c.h\n'}
+[12.599685] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armor_poses__rosidl_typesupport_fastrtps_c.h\n'}
+[12.599819] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armor_pose__rosidl_typesupport_fastrtps_c.h\n'}
+[12.599891] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/target__rosidl_typesupport_fastrtps_c.h\n'}
+[12.599954] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_state__rosidl_typesupport_fastrtps_c.h\n'}
+[12.600016] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[12.600206] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[12.601118] (rm_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[12.601853] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces\n'}
+[12.602214] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg\n'}
+[12.602376] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/armors.hpp\n'}
+[12.602825] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/gimbal_cmd.hpp\n'}
+[12.602948] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail\n'}
+[12.603239] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__type_support.hpp\n'}
+[12.604007] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/target__type_support.hpp\n'}
+[12.604191] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armors__type_support.hpp\n'}
+[12.604563] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armors__struct.hpp\n'}
+[12.605189] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armor_pose__type_support.hpp\n'}
+[12.605472] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armor_pose__traits.hpp\n'}
+[12.606327] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__builder.hpp\n'}
+[12.606792] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armor_poses__traits.hpp\n'}
+[12.607241] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armor_pose__builder.hpp\n'}
+[12.607961] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_state__type_support.hpp\n'}
+[12.608506] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_state__struct.hpp\n'}
+[12.608751] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armor_poses__type_support.hpp\n'}
+[12.609234] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armor_pose__struct.hpp\n'}
+[12.609691] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armor__struct.hpp\n'}
+[12.609986] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_state__traits.hpp\n'}
+[12.610088] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armor_poses__builder.hpp\n'}
+[12.611226] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__traits.hpp\n'}
+[12.611540] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__struct.hpp\n'}
+[12.611645] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armor__traits.hpp\n'}
+[12.612021] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armor__type_support.hpp\n'}
+[12.612224] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armors__builder.hpp\n'}
+[12.612359] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armor_poses__struct.hpp\n'}
+[12.612439] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armor__builder.hpp\n'}
+[12.612524] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/target__builder.hpp\n'}
+[12.612588] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_state__builder.hpp\n'}
+[12.612649] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/target__struct.hpp\n'}
+[12.612708] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/target__traits.hpp\n'}
+[12.612768] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armors__traits.hpp\n'}
+[12.612827] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/armor_poses.hpp\n'}
+[12.612949] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/gimbal_state.hpp\n'}
+[12.613024] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/armor_pose.hpp\n'}
+[12.613090] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/armor.hpp\n'}
+[12.613203] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[12.613288] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/target.hpp\n'}
+[12.613354] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces\n'}
+[12.613417] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg\n'}
+[12.613478] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail\n'}
+[12.613538] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armor_pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.613596] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armor_poses__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.613652] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.613707] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/target__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.613767] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/dds_fastrtps\n'}
+[12.613825] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armors__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.613881] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armor__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.614055] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.614129] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[12.614425] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[12.615257] (rm_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[12.616049] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces\n'}
+[12.616133] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg\n'}
+[12.616804] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail\n'}
+[12.617431] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armor_poses__rosidl_typesupport_introspection_c.h\n'}
+[12.617908] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__rosidl_typesupport_introspection_c.h\n'}
+[12.618477] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/target__rosidl_typesupport_introspection_c.h\n'}
+[12.618929] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armor_pose__type_support.c\n'}
+[12.619030] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__type_support.c\n'}
+[12.619101] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armor__rosidl_typesupport_introspection_c.h\n'}
+[12.619165] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armor_pose__rosidl_typesupport_introspection_c.h\n'}
+[12.619229] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armors__rosidl_typesupport_introspection_c.h\n'}
+[12.619403] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_state__type_support.c\n'}
+[12.619497] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/target__type_support.c\n'}
+[12.619836] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armor_poses__type_support.c\n'}
+[12.619975] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armor__type_support.c\n'}
+[12.620097] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armors__type_support.c\n'}
+[12.620512] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_state__rosidl_typesupport_introspection_c.h\n'}
+[12.620654] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[12.620959] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[12.621040] (rm_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[12.621108] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_c.so\n'}
+[12.621314] (rm_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[12.621732] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces\n'}
+[12.622296] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg\n'}
+[12.622537] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail\n'}
+[12.622620] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armor_poses__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.622854] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/target__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.623954] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armor_poses__type_support.cpp\n'}
+[12.624054] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armors__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.624309] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/target__type_support.cpp\n'}
+[12.624759] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.624937] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_state__type_support.cpp\n'}
+[12.625015] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__type_support.cpp\n'}
+[12.625087] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.625151] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armors__type_support.cpp\n'}
+[12.625219] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armor_pose__type_support.cpp\n'}
+[12.625277] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armor__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.625334] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armor_pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.625448] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armor__type_support.cpp\n'}
+[12.626124] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[12.626912] (rm_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[12.627610] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_cpp.so\n'}
+[12.628135] (-) TimerEvent: {}
+[12.628535] (rm_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[12.629026] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/share/rm_interfaces/environment/pythonpath.sh\n'}
+[12.629189] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/share/rm_interfaces/environment/pythonpath.dsv\n'}
+[12.629626] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces-0.1.0-py3.10.egg-info\n'}
+[12.629877] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces-0.1.0-py3.10.egg-info/top_level.txt\n'}
+[12.630108] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces-0.1.0-py3.10.egg-info/dependency_links.txt\n'}
+[12.630338] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces-0.1.0-py3.10.egg-info/PKG-INFO\n'}
+[12.631055] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces-0.1.0-py3.10.egg-info/SOURCES.txt\n'}
+[12.631564] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces\n'}
+[12.632416] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg\n'}
+[12.632961] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_armor_poses_s.c\n'}
+[12.633224] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_armor_pose_s.c\n'}
+[12.633300] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_armor_s.c\n'}
+[12.633590] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_armors_s.c\n'}
+[12.633804] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_armor_poses.py\n'}
+[12.634130] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_target_s.c\n'}
+[12.634213] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_gimbal_state.py\n'}
+[12.634741] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_gimbal_state_s.c\n'}
+[12.634941] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_armor_pose.py\n'}
+[12.635189] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_gimbal_cmd_s.c\n'}
+[12.635688] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_armors.py\n'}
+[12.635780] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_target.py\n'}
+[12.635877] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/__init__.py\n'}
+[12.635967] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_armor.py\n'}
+[12.636048] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_gimbal_cmd.py\n'}
+[12.636112] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/rm_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.636174] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/_rm_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[12.636237] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/librm_interfaces__rosidl_generator_py.so\n'}
+[12.636295] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/rm_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.636352] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/__init__.py\n'}
+[12.636406] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/_rm_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[12.636461] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/_rm_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[12.636581] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/rm_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.675709] (rm_interfaces) StdoutLine: {'line': b"Listing '/home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces'...\n"}
+[12.675915] (rm_interfaces) StdoutLine: {'line': b"Compiling '/home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/__init__.py'...\n"}
+[12.675993] (rm_interfaces) StdoutLine: {'line': b"Listing '/home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg'...\n"}
+[12.676057] (rm_interfaces) StdoutLine: {'line': b"Compiling '/home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/__init__.py'...\n"}
+[12.676107] (rm_interfaces) StdoutLine: {'line': b"Compiling '/home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_armor.py'...\n"}
+[12.676155] (rm_interfaces) StdoutLine: {'line': b"Compiling '/home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_armor_pose.py'...\n"}
+[12.676201] (rm_interfaces) StdoutLine: {'line': b"Compiling '/home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_armor_poses.py'...\n"}
+[12.676245] (rm_interfaces) StdoutLine: {'line': b"Compiling '/home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_armors.py'...\n"}
+[12.676290] (rm_interfaces) StdoutLine: {'line': b"Compiling '/home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_gimbal_cmd.py'...\n"}
+[12.676335] (rm_interfaces) StdoutLine: {'line': b"Compiling '/home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_gimbal_state.py'...\n"}
+[12.676378] (rm_interfaces) StdoutLine: {'line': b"Compiling '/home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_target.py'...\n"}
+[12.680966] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/rm_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.681431] (rm_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/rm_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[12.681744] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/rm_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.682128] (rm_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/rm_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[12.682425] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/rm_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.682802] (rm_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/rm_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[12.683820] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/lib/librm_interfaces__rosidl_generator_py.so\n'}
+[12.684376] (rm_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/lib/librm_interfaces__rosidl_generator_py.so" to ""\n'}
+[12.684791] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/share/rm_interfaces/rust\n'}
+[12.685057] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/share/rm_interfaces/rust/Cargo.toml\n'}
+[12.685386] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/share/rm_interfaces/rust/build.rs\n'}
+[12.685478] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/share/rm_interfaces/rust/src\n'}
+[12.685536] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/share/rm_interfaces/rust/src/msg.rs\n'}
+[12.685768] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/share/rm_interfaces/rust/src/msg\n'}
+[12.686110] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/share/rm_interfaces/rust/src/msg/rmw.rs\n'}
+[12.686304] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/share/rm_interfaces/rust/src/lib.rs\n'}
+[12.687483] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/share/rm_interfaces/msg/Armor.idl\n'}
+[12.687554] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/share/rm_interfaces/msg/Armors.idl\n'}
+[12.687979] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/share/rm_interfaces/msg/ArmorPose.idl\n'}
+[12.688770] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/share/rm_interfaces/msg/ArmorPoses.idl\n'}
+[12.689382] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/share/rm_interfaces/msg/Target.idl\n'}
+[12.689661] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/share/rm_interfaces/msg/GimbalCmd.idl\n'}
+[12.689924] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/share/rm_interfaces/msg/GimbalState.idl\n'}
+[12.689992] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/share/rm_interfaces/msg/Armor.msg\n'}
+[12.690292] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/share/rm_interfaces/msg/Armors.msg\n'}
+[12.690690] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/share/rm_interfaces/msg/ArmorPose.msg\n'}
+[12.690764] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/share/rm_interfaces/msg/ArmorPoses.msg\n'}
+[12.690822] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/share/rm_interfaces/msg/Target.msg\n'}
+[12.691097] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/share/rm_interfaces/msg/GimbalCmd.msg\n'}
+[12.691343] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/share/rm_interfaces/msg/GimbalState.msg\n'}
+[12.691805] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/share/ament_index/resource_index/package_run_dependencies/rm_interfaces\n'}
+[12.692068] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/share/ament_index/resource_index/parent_prefix_path/rm_interfaces\n'}
+[12.692133] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/share/rm_interfaces/environment/ament_prefix_path.sh\n'}
+[12.692449] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/share/rm_interfaces/environment/ament_prefix_path.dsv\n'}
+[12.692598] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/share/rm_interfaces/environment/path.sh\n'}
+[12.692901] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/share/rm_interfaces/environment/path.dsv\n'}
+[12.692970] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/share/rm_interfaces/local_setup.bash\n'}
+[12.693290] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/share/rm_interfaces/local_setup.sh\n'}
+[12.694364] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/share/rm_interfaces/local_setup.zsh\n'}
+[12.694451] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/share/rm_interfaces/local_setup.dsv\n'}
+[12.694510] (rm_interfaces) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/share/rm_interfaces/package.dsv\n'}
+[12.694573] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/share/ament_index/resource_index/packages/rm_interfaces\n'}
+[12.694643] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/share/rm_interfaces/cmake/export_rm_interfaces__rosidl_generator_cExport.cmake\n'}
+[12.694775] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/share/rm_interfaces/cmake/export_rm_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[12.694884] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/share/rm_interfaces/cmake/export_rm_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[12.694953] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/share/rm_interfaces/cmake/export_rm_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[12.695010] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/share/rm_interfaces/cmake/export_rm_interfaces__rosidl_generator_cppExport.cmake\n'}
+[12.695064] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/share/rm_interfaces/cmake/export_rm_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[12.695115] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/share/rm_interfaces/cmake/export_rm_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[12.695166] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[12.695210] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[12.695258] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[12.695378] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[12.695442] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[12.695500] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[12.695554] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[12.695617] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[12.695669] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/share/rm_interfaces/cmake/export_rm_interfaces__rosidl_generator_pyExport.cmake\n'}
+[12.695717] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/share/rm_interfaces/cmake/export_rm_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[12.695765] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/share/rm_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[12.695812] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/share/rm_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[12.695860] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/share/rm_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[12.695913] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/share/rm_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[12.695963] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/share/rm_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[12.696011] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/share/rm_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[12.696066] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/share/rm_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[12.696114] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/share/rm_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake\n'}
+[12.696162] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfacesConfig.cmake\n'}
+[12.697803] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfacesConfig-version.cmake\n'}
+[12.698146] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces/share/rm_interfaces/package.xml\n'}
+[12.698251] (rm_interfaces) CommandEnded: {'returncode': 0}
+[12.722758] (rm_interfaces) JobEnded: {'identifier': 'rm_interfaces', 'rc': 0}
+[12.723760] (-) EventReactorShutdown: {}

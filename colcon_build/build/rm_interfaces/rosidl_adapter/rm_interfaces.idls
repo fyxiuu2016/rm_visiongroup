@@ -1,0 +1,7 @@
+/home/fyxiuu/rm_visiongroup/colcon_build/build/rm_interfaces/rosidl_adapter/rm_interfaces:msg/Armor.idl
+/home/fyxiuu/rm_visiongroup/colcon_build/build/rm_interfaces/rosidl_adapter/rm_interfaces:msg/Armors.idl
+/home/fyxiuu/rm_visiongroup/colcon_build/build/rm_interfaces/rosidl_adapter/rm_interfaces:msg/ArmorPose.idl
+/home/fyxiuu/rm_visiongroup/colcon_build/build/rm_interfaces/rosidl_adapter/rm_interfaces:msg/ArmorPoses.idl
+/home/fyxiuu/rm_visiongroup/colcon_build/build/rm_interfaces/rosidl_adapter/rm_interfaces:msg/Target.idl
+/home/fyxiuu/rm_visiongroup/colcon_build/build/rm_interfaces/rosidl_adapter/rm_interfaces:msg/GimbalCmd.idl
+/home/fyxiuu/rm_visiongroup/colcon_build/build/rm_interfaces/rosidl_adapter/rm_interfaces:msg/GimbalState.idl

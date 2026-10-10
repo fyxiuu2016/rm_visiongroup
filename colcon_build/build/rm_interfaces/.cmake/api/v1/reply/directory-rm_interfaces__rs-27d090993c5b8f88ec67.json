@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "rm_interfaces__rs",
+		"source" : "/home/fyxiuu/rm_visiongroup/colcon_build/build/rm_interfaces/rm_interfaces__rs"
+	}
+}

@@ -1,0 +1,60 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from rm_interfaces/msg/Armor.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point32.idl"
+#include "std_msgs/msg/Header.idl"
+
+module rm_interfaces {
+  module msg {
+    typedef geometry_msgs::msg::Point32 geometry_msgs__msg__Point32;
+    typedef geometry_msgs__msg__Point32 geometry_msgs__msg__Point32__4[4];
+    module Armor_Constants {
+      @verbatim (language="comment", text=
+        "---- 颜色（常量只是给数字起名字，不占数据空间） ----" "\n"        "规定：红色在表里写 0")
+      const uint8 RED = 0;
+      @verbatim (language="comment", text=
+        "蓝色写 1")
+      const uint8 BLUE = 1;
+      @verbatim (language="comment", text=
+        "---- 大小（大板血厚、判定区大，打法不同） ----" "\n"        "小板写 0")
+      const uint8 SMALL = 0;
+      @verbatim (language="comment", text=
+        "大板写 1")
+      const uint8 BIG = 1;
+    };
+    @verbatim (language="comment", text=
+      "============================================================" "\n"
+      "Armor —— \"我看到一块装甲板\"（检测节点填，发给解算节点）" "\n"
+      "只记录照片上的二维信息，此时还不知道它在现实中哪里" "\n"
+      "============================================================")
+    struct Armor {
+      @verbatim (language="comment", text=
+        "表头：自带时间戳，记录这一帧是什么时候拍的")
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "这块板的颜色（填 0 或 1）")
+      uint8 color;
+
+      @verbatim (language="comment", text=
+        "大板还是小板")
+      uint8 type;
+
+      @verbatim (language="comment", text=
+        "板子上的数字编号：" "\n"
+        "1~5 步兵/英雄，6 哨兵，7 前哨站，8 基地（依训练集定义）")
+      uint8 number;
+
+      @verbatim (language="comment", text=
+        "检测程序有多大把握（0~1，0.9 = 九成把握）")
+      float confidence;
+
+      @verbatim (language="comment", text=
+        "板子四个角在照片上的像素位置" "\n"
+        "[4] = 固定 4 个点，从左上角开始顺时针排列")
+      @unit (value="4")
+      geometry_msgs__msg__Point32__4 corners;
+    };
+  };
+};

@@ -1,0 +1,9 @@
+{
+    "C_Cpp.default.includePath": [
+        "${workspaceFolder}/**",
+        "/opt/ros/humble/include/**",
+        "/opt/intel/openvino_2024.6.0/runtime/include/**",
+        "/usr/include/eigen3"
+    ],
+    "C_Cpp.default.cppStandard": "c++17"
+}

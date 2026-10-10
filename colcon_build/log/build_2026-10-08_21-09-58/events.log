@@ -1,0 +1,98 @@
+[0.000000] (-) TimerEvent: {}
+[0.000260] (-) JobUnselected: {'identifier': 'rm_interfaces'}
+[0.000505] (-) JobUnselected: {'identifier': 'rm_interfaces'}
+[0.000589] (-) JobUnselected: {'identifier': 'rm_interfaces__py'}
+[0.000762] (-) JobUnselected: {'identifier': 'rm_interfaces__rs'}
+[0.000829] (hik_camera) JobQueued: {'identifier': 'hik_camera', 'dependencies': OrderedDict()}
+[0.000896] (hik_camera) JobStarted: {'identifier': 'hik_camera'}
+[0.008495] (hik_camera) JobProgress: {'identifier': 'hik_camera', 'progress': 'cmake'}
+[0.009576] (hik_camera) JobProgress: {'identifier': 'hik_camera', 'progress': 'build'}
+[0.010278] (hik_camera) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fyxiuu/rm_visiongroup/colcon_build/build/hik_camera'], 'cwd': '/home/fyxiuu/rm_visiongroup/colcon_build/build/hik_camera', 'env': OrderedDict([('USER', 'fyxiuu'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fyxiuu'), ('OLDPWD', '/mnt/d/KimiData/kimi/workspace'), ('ROS_PYTHON_VERSION', '3'), ('MAKEFLAGS', '-j3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('COLCON_LOG_PATH', '/home/fyxiuu/rm_visiongroup/colcon_build/log'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fyxiuu'), ('NAME', 'Vex'), ('WSL_INTEROP', '/run/WSL/18160_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/e/AI/Git/Git/ucrt64/bin:/mnt/e/AI/Git/Git/usr/bin:/mnt/c/Users/Administrator/bin:/mnt/e/vmware/Workstation/bin/:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/e/AI/Nodejs/:/mnt/c/Program Files/dotnet/:/mnt/e/AI/Git/Git/cmd:/mnt/c/Users/Administrator/.local/bin:/mnt/c/Users/Administrator/.kimi-code/bin:/mnt/c/Users/Administrator/AppData/Local/Programs/Python/Python312:/mnt/c/Users/Administrator/AppData/Local/Programs/Python/Python312/Scripts:/mnt/c/Users/Administrator/AppData/Roaming/Python/Python312/Scripts:/mnt/c/Users/Administrator/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/Administrator/AppData/Local/hermes/hermes-agent/venv/Scripts:/mnt/c/Users/Administrator/AppData/Local/hermes/bin:/mnt/c/Users/Administrator/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Administrator/msys64/ucrt64/bin:/mnt/e/VScode/Microsoft VS Code/bin:/mnt/c/Users/Administrator/AppData/Local/cursor-agent:/mnt/d/npm-global:/mnt/c/Users/Administrator/AppData/Local/Programs/Ollaya/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('COLCON_DEFAULTS_FILE', '/home/fyxiuu/rm_visiongroup/colcon_defaults.yaml'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/home/fyxiuu/rm_visiongroup/colcon_build/build/hik_camera'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.062471] (hik_camera) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target hik_camera_node\n'}
+[0.077913] (hik_camera) StdoutLine: {'line': b'[ 25%] Building CXX object CMakeFiles/hik_camera_node.dir/src/hik_camera_node.cpp.o\n'}
+[0.098689] (-) TimerEvent: {}
+[0.198956] (-) TimerEvent: {}
+[0.299226] (-) TimerEvent: {}
+[0.399576] (-) TimerEvent: {}
+[0.499886] (-) TimerEvent: {}
+[0.600212] (-) TimerEvent: {}
+[0.700489] (-) TimerEvent: {}
+[0.800767] (-) TimerEvent: {}
+[0.901120] (-) TimerEvent: {}
+[1.001478] (-) TimerEvent: {}
+[1.101848] (-) TimerEvent: {}
+[1.202147] (-) TimerEvent: {}
+[1.302518] (-) TimerEvent: {}
+[1.402880] (-) TimerEvent: {}
+[1.508188] (-) TimerEvent: {}
+[1.609085] (-) TimerEvent: {}
+[1.710302] (-) TimerEvent: {}
+[1.810937] (-) TimerEvent: {}
+[1.911313] (-) TimerEvent: {}
+[2.011568] (-) TimerEvent: {}
+[2.111828] (-) TimerEvent: {}
+[2.212079] (-) TimerEvent: {}
+[2.312379] (-) TimerEvent: {}
+[2.412674] (-) TimerEvent: {}
+[2.512981] (-) TimerEvent: {}
+[2.613255] (-) TimerEvent: {}
+[2.713511] (-) TimerEvent: {}
+[2.813846] (-) TimerEvent: {}
+[2.914207] (-) TimerEvent: {}
+[3.014509] (-) TimerEvent: {}
+[3.114742] (-) TimerEvent: {}
+[3.215045] (-) TimerEvent: {}
+[3.315357] (-) TimerEvent: {}
+[3.415622] (-) TimerEvent: {}
+[3.516025] (-) TimerEvent: {}
+[3.616358] (-) TimerEvent: {}
+[3.716669] (-) TimerEvent: {}
+[3.816931] (-) TimerEvent: {}
+[3.917238] (-) TimerEvent: {}
+[4.017482] (-) TimerEvent: {}
+[4.117703] (-) TimerEvent: {}
+[4.217962] (-) TimerEvent: {}
+[4.318210] (-) TimerEvent: {}
+[4.418589] (-) TimerEvent: {}
+[4.518879] (-) TimerEvent: {}
+[4.619111] (-) TimerEvent: {}
+[4.719412] (-) TimerEvent: {}
+[4.819823] (-) TimerEvent: {}
+[4.920070] (-) TimerEvent: {}
+[5.020334] (-) TimerEvent: {}
+[5.120569] (-) TimerEvent: {}
+[5.220808] (-) TimerEvent: {}
+[5.315069] (hik_camera) StdoutLine: {'line': b'[ 50%] Linking CXX executable hik_camera_node\n'}
+[5.320939] (-) TimerEvent: {}
+[5.421227] (-) TimerEvent: {}
+[5.521516] (-) TimerEvent: {}
+[5.621860] (-) TimerEvent: {}
+[5.722145] (-) TimerEvent: {}
+[5.822418] (-) TimerEvent: {}
+[5.874239] (hik_camera) StdoutLine: {'line': b'[100%] Built target hik_camera_node\n'}
+[5.885511] (hik_camera) CommandEnded: {'returncode': 0}
+[5.886341] (hik_camera) JobProgress: {'identifier': 'hik_camera', 'progress': 'install'}
+[5.894495] (hik_camera) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/fyxiuu/rm_visiongroup/colcon_build/build/hik_camera'], 'cwd': '/home/fyxiuu/rm_visiongroup/colcon_build/build/hik_camera', 'env': OrderedDict([('USER', 'fyxiuu'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fyxiuu'), ('OLDPWD', '/mnt/d/KimiData/kimi/workspace'), ('ROS_PYTHON_VERSION', '3'), ('MAKEFLAGS', '-j3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('COLCON_LOG_PATH', '/home/fyxiuu/rm_visiongroup/colcon_build/log'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fyxiuu'), ('NAME', 'Vex'), ('WSL_INTEROP', '/run/WSL/18160_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/e/AI/Git/Git/ucrt64/bin:/mnt/e/AI/Git/Git/usr/bin:/mnt/c/Users/Administrator/bin:/mnt/e/vmware/Workstation/bin/:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/e/AI/Nodejs/:/mnt/c/Program Files/dotnet/:/mnt/e/AI/Git/Git/cmd:/mnt/c/Users/Administrator/.local/bin:/mnt/c/Users/Administrator/.kimi-code/bin:/mnt/c/Users/Administrator/AppData/Local/Programs/Python/Python312:/mnt/c/Users/Administrator/AppData/Local/Programs/Python/Python312/Scripts:/mnt/c/Users/Administrator/AppData/Roaming/Python/Python312/Scripts:/mnt/c/Users/Administrator/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/Administrator/AppData/Local/hermes/hermes-agent/venv/Scripts:/mnt/c/Users/Administrator/AppData/Local/hermes/bin:/mnt/c/Users/Administrator/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Administrator/msys64/ucrt64/bin:/mnt/e/VScode/Microsoft VS Code/bin:/mnt/c/Users/Administrator/AppData/Local/cursor-agent:/mnt/d/npm-global:/mnt/c/Users/Administrator/AppData/Local/Programs/Ollaya/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('COLCON_DEFAULTS_FILE', '/home/fyxiuu/rm_visiongroup/colcon_defaults.yaml'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/home/fyxiuu/rm_visiongroup/colcon_build/build/hik_camera'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.899901] (hik_camera) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.900205] (hik_camera) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/hik_camera/lib/hik_camera/hik_camera_node\n'}
+[5.901699] (hik_camera) StdoutLine: {'line': b'-- Set runtime path of "/home/fyxiuu/rm_visiongroup/colcon_build/install/hik_camera/lib/hik_camera/hik_camera_node" to ""\n'}
+[5.902272] (hik_camera) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/hik_camera/share/hik_camera/config\n'}
+[5.902338] (hik_camera) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/hik_camera/share/hik_camera/config/hik_camera.yaml\n'}
+[5.902398] (hik_camera) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/hik_camera/share/ament_index/resource_index/package_run_dependencies/hik_camera\n'}
+[5.902447] (hik_camera) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/hik_camera/share/ament_index/resource_index/parent_prefix_path/hik_camera\n'}
+[5.902493] (hik_camera) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/hik_camera/share/hik_camera/environment/ament_prefix_path.sh\n'}
+[5.902536] (hik_camera) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/hik_camera/share/hik_camera/environment/ament_prefix_path.dsv\n'}
+[5.902578] (hik_camera) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/hik_camera/share/hik_camera/environment/path.sh\n'}
+[5.902621] (hik_camera) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/hik_camera/share/hik_camera/environment/path.dsv\n'}
+[5.902662] (hik_camera) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/hik_camera/share/hik_camera/local_setup.bash\n'}
+[5.902705] (hik_camera) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/hik_camera/share/hik_camera/local_setup.sh\n'}
+[5.902771] (hik_camera) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/hik_camera/share/hik_camera/local_setup.zsh\n'}
+[5.902948] (hik_camera) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/hik_camera/share/hik_camera/local_setup.dsv\n'}
+[5.903001] (hik_camera) StdoutLine: {'line': b'-- Installing: /home/fyxiuu/rm_visiongroup/colcon_build/install/hik_camera/share/hik_camera/package.dsv\n'}
+[5.903108] (hik_camera) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/hik_camera/share/ament_index/resource_index/packages/hik_camera\n'}
+[5.903203] (hik_camera) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/hik_camera/share/hik_camera/cmake/hik_cameraConfig.cmake\n'}
+[5.903256] (hik_camera) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/hik_camera/share/hik_camera/cmake/hik_cameraConfig-version.cmake\n'}
+[5.903560] (hik_camera) StdoutLine: {'line': b'-- Up-to-date: /home/fyxiuu/rm_visiongroup/colcon_build/install/hik_camera/share/hik_camera/package.xml\n'}
+[5.904160] (hik_camera) CommandEnded: {'returncode': 0}
+[5.919936] (hik_camera) JobEnded: {'identifier': 'hik_camera', 'rc': 0}
+[5.920779] (-) EventReactorShutdown: {}

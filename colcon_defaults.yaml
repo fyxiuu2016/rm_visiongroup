@@ -1,0 +1,7 @@
+# colcon 默认参数：把产物统一收进 colcon_build/ 文件夹
+# 生效前提（两个环境变量需写入 ~/.bashrc）：
+#   export COLCON_DEFAULTS_FILE=~/rm_visiongroup/colcon_defaults.yaml   # 让本文件生效
+#   export COLCON_LOG_PATH=~/rm_visiongroup/colcon_build/log            # 日志目录（只能走环境变量，写本文件无效）
+build:
+  build-base: /home/fyxiuu/rm_visiongroup/colcon_build/build      # 编译中间产物
+  install-base: /home/fyxiuu/rm_visiongroup/colcon_build/install  # 安装产物（source 这里的 setup.bash）

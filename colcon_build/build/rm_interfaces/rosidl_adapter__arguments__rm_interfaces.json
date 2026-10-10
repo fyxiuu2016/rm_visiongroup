@@ -1,0 +1,12 @@
+{
+  "package_name": "rm_interfaces",
+  "non_idl_tuples": [
+    "/home/fyxiuu/rm_visiongroup/rm_interfaces:msg/Armor.msg",
+    "/home/fyxiuu/rm_visiongroup/rm_interfaces:msg/Armors.msg",
+    "/home/fyxiuu/rm_visiongroup/rm_interfaces:msg/ArmorPose.msg",
+    "/home/fyxiuu/rm_visiongroup/rm_interfaces:msg/ArmorPoses.msg",
+    "/home/fyxiuu/rm_visiongroup/rm_interfaces:msg/Target.msg",
+    "/home/fyxiuu/rm_visiongroup/rm_interfaces:msg/GimbalCmd.msg",
+    "/home/fyxiuu/rm_visiongroup/rm_interfaces:msg/GimbalState.msg"
+  ]
+}

@@ -1,0 +1,6 @@
+Invoking command in '/home/fyxiuu/rm_visiongroup/colcon_build/build/rm_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/fyxiuu/rm_visiongroup/rm_interfaces -DCMAKE_INSTALL_PREFIX=/home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces
+Invoked command in '/home/fyxiuu/rm_visiongroup/colcon_build/build/rm_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/fyxiuu/rm_visiongroup/rm_interfaces -DCMAKE_INSTALL_PREFIX=/home/fyxiuu/rm_visiongroup/colcon_build/install/rm_interfaces
+Invoking command in '/home/fyxiuu/rm_visiongroup/colcon_build/build/rm_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/fyxiuu/rm_visiongroup/colcon_build/build/rm_interfaces
+Invoked command in '/home/fyxiuu/rm_visiongroup/colcon_build/build/rm_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/fyxiuu/rm_visiongroup/colcon_build/build/rm_interfaces
+Invoking command in '/home/fyxiuu/rm_visiongroup/colcon_build/build/rm_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/fyxiuu/rm_visiongroup/colcon_build/build/rm_interfaces
+Invoked command in '/home/fyxiuu/rm_visiongroup/colcon_build/build/rm_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/fyxiuu/rm_visiongroup/colcon_build/build/rm_interfaces

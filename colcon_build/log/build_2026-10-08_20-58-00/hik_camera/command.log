@@ -1,0 +1,6 @@
+Invoking command in '/home/fyxiuu/rm_visiongroup/colcon_build/build/hik_camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/fyxiuu/rm_visiongroup/hik_camera -DCMAKE_INSTALL_PREFIX=/home/fyxiuu/rm_visiongroup/colcon_build/install/hik_camera
+Invoked command in '/home/fyxiuu/rm_visiongroup/colcon_build/build/hik_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/fyxiuu/rm_visiongroup/hik_camera -DCMAKE_INSTALL_PREFIX=/home/fyxiuu/rm_visiongroup/colcon_build/install/hik_camera
+Invoking command in '/home/fyxiuu/rm_visiongroup/colcon_build/build/hik_camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/fyxiuu/rm_visiongroup/colcon_build/build/hik_camera
+Invoked command in '/home/fyxiuu/rm_visiongroup/colcon_build/build/hik_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/fyxiuu/rm_visiongroup/colcon_build/build/hik_camera
+Invoking command in '/home/fyxiuu/rm_visiongroup/colcon_build/build/hik_camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/fyxiuu/rm_visiongroup/colcon_build/build/hik_camera
+Invoked command in '/home/fyxiuu/rm_visiongroup/colcon_build/build/hik_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/fyxiuu/rm_visiongroup/colcon_build/build/hik_camera

@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from rm_interfaces/msg/ArmorPoses.msg
+// generated code does not contain a copyright notice
+
+#include "rm_interfaces/msg/ArmorPose.idl"
+#include "std_msgs/msg/Header.idl"
+
+module rm_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "============================================================" "\n"
+      "ArmorPoses —— 一帧中全部解算完的装甲板（打包发出）" "\n"
+      "对应话题：/solver/armors" "\n"
+      "============================================================")
+    struct ArmorPoses {
+      std_msgs::msg::Header header;
+
+      sequence<rm_interfaces::msg::ArmorPose> armors;
+    };
+  };
+};

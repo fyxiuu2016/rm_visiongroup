@@ -1,0 +1,48 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from rm_interfaces/msg/GimbalCmd.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module rm_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "============================================================" "\n"
+      "GimbalCmd —— \"云台这么转、开不开火\"（决策节点填，发给下位机）" "\n"
+      "CAN 节点订阅本消息，打包成 CAN 帧发给 C 板执行" "\n"
+      "对应话题：/gimbal/cmd" "\n"
+      "============================================================")
+    struct GimbalCmd {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "自瞄要不要接管云台？" "\n"
+        "false = 交还给操作手（自瞄没把握时）")
+      boolean control;
+
+      @verbatim (language="comment", text=
+        "开火吗？true = 打！")
+      boolean fire;
+
+      @verbatim (language="comment", text=
+        "云台应该转到的水平角（弧度）")
+      float yaw;
+
+      @verbatim (language="comment", text=
+        "云台应该转到的俯仰角（弧度）")
+      float pitch;
+
+      @verbatim (language="comment", text=
+        "预留：yaw 该转多快（速度前馈，让云台更跟手）")
+      float yaw_velocity;
+
+      @verbatim (language="comment", text=
+        "预留：pitch 速度前馈（决策节点后续会填）")
+      float pitch_velocity;
+
+      @verbatim (language="comment", text=
+        "目标距离（米），给下位机做弹道参考")
+      float distance;
+    };
+  };
+};

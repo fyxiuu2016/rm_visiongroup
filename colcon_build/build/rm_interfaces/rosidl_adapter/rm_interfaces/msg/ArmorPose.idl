@@ -1,0 +1,36 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from rm_interfaces/msg/ArmorPose.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+#include "rm_interfaces/msg/Armor.idl"
+#include "std_msgs/msg/Header.idl"
+
+module rm_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "============================================================" "\n"
+      "ArmorPose —— \"这块板在现实中哪里\"（解算节点填，发给跟踪节点）" "\n"
+      "解算 = 拿 Armor 的 4 个像素点 + 相机标定参数，" "\n"
+      "       用 PnP 算法算出三维位置和朝向" "\n"
+      "============================================================")
+    struct ArmorPose {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "把检测那张表原样带过来（颜色/编号/置信度），" "\n"
+        "下一个节点不用再回头查")
+      rm_interfaces::msg::Armor armor;
+
+      @verbatim (language="comment", text=
+        "板子中心的三维坐标 (x, y, z)，单位米" "\n"
+        "例如 (2.1, 0.3, -0.1) = 右前方 2 米多")
+      geometry_msgs::msg::Point position;
+
+      @verbatim (language="comment", text=
+        "板子朝向角，单位弧度" "\n"
+        "正对我们时接近 0，侧对时较大")
+      float yaw;
+    };
+  };
+};

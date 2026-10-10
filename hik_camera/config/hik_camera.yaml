@@ -1,0 +1,14 @@
+# hik_camera 节点参数
+hik_camera_node:
+  ros__parameters:
+    mode: "video"          # video = 视频文件取图（WSL 调试用）/ sdk = 海康 SDK 实机取图
+    frame_id: "camera"     # 图像消息 header.frame_id
+
+    # ---- 视频模式 ----
+    video_path: "/home/fyxiuu/rm_visiongroup/assets/demo/demo.avi"  # 视频文件路径（tools/make_demo_video.py 生成）
+    loop: true             # 播完是否循环
+
+    # ---- SDK 模式（视频模式下忽略）----
+    exposure_ms: 3.0       # 曝光时间（毫秒）
+    gain: 12.0             # 增益（dB）
+    frame_rate: 150.0      # 相机帧率上限

@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/rm_interfaces__cpp"
+  "rosidl_generator_cpp/rm_interfaces/msg/armor.hpp"
+  "rosidl_generator_cpp/rm_interfaces/msg/armor_pose.hpp"
+  "rosidl_generator_cpp/rm_interfaces/msg/armor_poses.hpp"
+  "rosidl_generator_cpp/rm_interfaces/msg/armors.hpp"
+  "rosidl_generator_cpp/rm_interfaces/msg/detail/armor__builder.hpp"
+  "rosidl_generator_cpp/rm_interfaces/msg/detail/armor__struct.hpp"
+  "rosidl_generator_cpp/rm_interfaces/msg/detail/armor__traits.hpp"
+  "rosidl_generator_cpp/rm_interfaces/msg/detail/armor__type_support.hpp"
+  "rosidl_generator_cpp/rm_interfaces/msg/detail/armor_pose__builder.hpp"
+  "rosidl_generator_cpp/rm_interfaces/msg/detail/armor_pose__struct.hpp"
+  "rosidl_generator_cpp/rm_interfaces/msg/detail/armor_pose__traits.hpp"
+  "rosidl_generator_cpp/rm_interfaces/msg/detail/armor_pose__type_support.hpp"
+  "rosidl_generator_cpp/rm_interfaces/msg/detail/armor_poses__builder.hpp"
+  "rosidl_generator_cpp/rm_interfaces/msg/detail/armor_poses__struct.hpp"
+  "rosidl_generator_cpp/rm_interfaces/msg/detail/armor_poses__traits.hpp"
+  "rosidl_generator_cpp/rm_interfaces/msg/detail/armor_poses__type_support.hpp"
+  "rosidl_generator_cpp/rm_interfaces/msg/detail/armors__builder.hpp"
+  "rosidl_generator_cpp/rm_interfaces/msg/detail/armors__struct.hpp"
+  "rosidl_generator_cpp/rm_interfaces/msg/detail/armors__traits.hpp"
+  "rosidl_generator_cpp/rm_interfaces/msg/detail/armors__type_support.hpp"
+  "rosidl_generator_cpp/rm_interfaces/msg/detail/gimbal_cmd__builder.hpp"
+  "rosidl_generator_cpp/rm_interfaces/msg/detail/gimbal_cmd__struct.hpp"
+  "rosidl_generator_cpp/rm_interfaces/msg/detail/gimbal_cmd__traits.hpp"
+  "rosidl_generator_cpp/rm_interfaces/msg/detail/gimbal_cmd__type_support.hpp"
+  "rosidl_generator_cpp/rm_interfaces/msg/detail/gimbal_state__builder.hpp"
+  "rosidl_generator_cpp/rm_interfaces/msg/detail/gimbal_state__struct.hpp"
+  "rosidl_generator_cpp/rm_interfaces/msg/detail/gimbal_state__traits.hpp"
+  "rosidl_generator_cpp/rm_interfaces/msg/detail/gimbal_state__type_support.hpp"
+  "rosidl_generator_cpp/rm_interfaces/msg/detail/target__builder.hpp"
+  "rosidl_generator_cpp/rm_interfaces/msg/detail/target__struct.hpp"
+  "rosidl_generator_cpp/rm_interfaces/msg/detail/target__traits.hpp"
+  "rosidl_generator_cpp/rm_interfaces/msg/detail/target__type_support.hpp"
+  "rosidl_generator_cpp/rm_interfaces/msg/gimbal_cmd.hpp"
+  "rosidl_generator_cpp/rm_interfaces/msg/gimbal_state.hpp"
+  "rosidl_generator_cpp/rm_interfaces/msg/target.hpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/rm_interfaces__cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

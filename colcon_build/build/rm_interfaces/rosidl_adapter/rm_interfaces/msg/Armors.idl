@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from rm_interfaces/msg/Armors.msg
+// generated code does not contain a copyright notice
+
+#include "rm_interfaces/msg/Armor.idl"
+#include "std_msgs/msg/Header.idl"
+
+module rm_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "============================================================" "\n"
+      "Armors —— \"这一帧照片里所有的装甲板\"（打包发出）" "\n"
+      "一帧可能看到 0 块、1 块或好几块，所以用数组" "\n"
+      "对应话题：/detector/armors" "\n"
+      "============================================================")
+    struct Armors {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Armor 的数组：[] 表示长度不固定")
+      sequence<rm_interfaces::msg::Armor> armors;
+    };
+  };
+};
